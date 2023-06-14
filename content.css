@@ -1,0 +1,19 @@
+.content {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 127px;
+    padding: 88px 0 327px 180px;
+    overflow: hidden;
+}
+
+.content__pink-rectangle {
+    background-color: rgba(255, 212, 202, 0.32);
+    rotate: -45deg;
+    position: absolute;
+    width: 1540px;
+    height: 840px;
+    bottom: -10%;
+    right: -50%;
+}

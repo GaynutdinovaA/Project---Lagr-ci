@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('./Jost/Jost-ExtraLight.ttf') format('ttf');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('./Jost/Jost-Light.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('./Jost/Jost-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}

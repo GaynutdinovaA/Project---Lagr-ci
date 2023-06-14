@@ -1,0 +1,39 @@
+.proposal{
+    box-sizing: border-box;
+    position: relative;
+    display: grid;
+    flex-direction: column;
+    padding-right: 180px;
+    background-color: transparent;
+}
+.list__offers{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    list-style-type:  none;
+    flex-wrap: wrap;
+    padding: 0;
+    background-color: transparent;
+}
+.position__text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 58px;
+}
+
+.list__offers-last{
+    list-style-type:  none;
+    text-align:center;
+}
+.p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.proposal__image {
+    cursor: pointer;
+}

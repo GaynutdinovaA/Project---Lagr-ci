@@ -1,0 +1,56 @@
+.information{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-right: 45%;
+}
+.inform__blok{
+    position: relative;
+    max-height: 60px;
+}
+
+.inform__name{
+    border-bottom: 2px solid #000000;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 58px;
+    margin: 0;
+    margin-bottom: 22px;
+}
+
+.inform__text {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.inform__text_type_open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.last__text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0;
+}
+
+.inform__button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-image: url("./img/button-open.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 23px;
+    height: 23px;
+}
+
+.inform__button_close {
+    background-image: url("./img/button-close.svg");
+}

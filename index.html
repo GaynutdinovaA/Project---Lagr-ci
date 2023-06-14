@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lagrâci</title>
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="body">
+
+  <header class="header">
+    <div class="header__left">
+      <img class="header__icon" src="./img/Главная.svg">
+      <img class="header__icon" src="./img/Каталог.svg">
+      <img id="search" class="header__icon" src="./img/Поиск.svg">
+    </div>
+    <img class="header__logo" src="./img/Лого.svg">
+    <div class="header__right">
+      <img class="header__icon" src="./img/Корзина.svg">
+      <img class="header__icon" src="./img/Избранное.svg">
+      <img class="header__icon" src="./img/Войти.svg">
+    </div>
+  </header>
+
+
+
+  <div class="popup" style="display: none;">
+    <div class="search">
+      <input type="text" class="search__input" placeholder="Поиск по каталогу">
+      <button type="submit" class="search__button"></button>
+    </div>
+  </div>
+
+
+
+  <main class="content">
+    <div class="content__pink-rectangle"></div>
+    <section class="product">
+      <div class="product__pink-rectangle"></div>
+      <h2 class="product__title">Кольцо с солитером</h2>
+      <div class="product__about">
+        <p class="product__price">4000 &#8381;</p>
+        <p class="product__article">Артикул: 1012564</p>
+      </div>
+
+      <div class="product__slider">
+        <div class="slider__container">
+          <img class="slider__element" src="./img/Кольцо1.png">
+          <img class="slider__element" src="./img/Кольцо2.png">
+          <img class="slider__element" src="./img/Кольцо3.png">
+        </div>
+        <div class="button__container">
+          <button class="slider__arrow slider__arrow_type_left"><img src="./img/Стрелка-влево.svg"></button>
+          <div class="slider__dote slider__dote_active"></div>
+          <div class="slider__dote"></div>
+          <div class="slider__dote"></div>
+          <button class="slider__arrow slider__arrow_type_right"><img src="./img/Стрелка-вправо.svg"></button>
+        </div>
+      </div>
+
+      <div class="product__cart">
+        <div class="cart__sizes">
+          <button class="cart__size" type="button">15,5</button>
+          <button class="cart__size" type="button">16</button>
+          <button class="cart__size" type="button">16,5</button>
+          <button class="cart__size" type="button">17</button>
+          <button class="cart__size" type="button">17,5</button>
+          <button class="cart__size" type="button">18</button>
+          <button class="cart__size" type="button">18,5</button>
+          <button class="cart__size" type="button">19</button>
+        </div>
+        <button class="cart__submit" type="button">В корзину</button>
+        <button class="cart__like" type="button"></button>
+      </div>
+    </section>
+
+
+
+    <section class="information">
+      <div class="inform__blok">
+        <h3 class="inform__name">Опиcание</h3>
+        <button class="inform__button" type="button"></button>
+        <div class="inform__text">
+          <p class="last__text">Тонкие, невесомые, как вторая кожа, украшения: 
+            такими мы видим драгоценности нашего времени. Деликатное кольцо с солитером 
+            станет идеальным дополнением к любому наряду, придав образу изящества и воздушности.</p>
+        </div>
+      </div>
+      <div class="inform__blok">
+        <h3 class="inform__name">Доставка и оплата</h3>
+        <button class="inform__button" type="button"></button>
+        <div class="inform__text">
+          <p class="last__text">Тонкие, невесомые, как вторая кожа, украшения: 
+            такими мы видим драгоценности нашего времени. Деликатное кольцо с солитером 
+            станет идеальным дополнением к любому наряду, придав образу изящества и воздушности.</p>
+        </div>
+      </div>
+      <div class="inform__blok">
+        <h3 class="inform__name">Гарантия и уход</h3>
+        <button class="inform__button" type="button"></button>
+        <div class="inform__text">
+          <p class="last__text">Тонкие, невесомые, как вторая кожа, украшения: 
+            такими мы видим драгоценности нашего времени. Деликатное кольцо с солитером 
+            станет идеальным дополнением к любому наряду, придав образу изящества и воздушности.</p>
+        </div>
+      </div>
+      <div class="inform__blok">
+        <h3 class="inform__name">Возврат</h3>
+        <button class="inform__button" type="button"></button>
+        <div class="inform__text">
+          <p class="last__text">Тонкие, невесомые, как вторая кожа, украшения: 
+            такими мы видим драгоценности нашего времени. Деликатное кольцо с солитером 
+            станет идеальным дополнением к любому наряду, придав образу изящества и воздушности.</p>
+        </div>
+      </div>
+      <div class="inform__blok">
+        <h3 class="inform__name">Отзывы</h3>
+        <button class="inform__button" type="button"></button>
+        <div class="inform__text">
+          <p class="last__text">Тонкие, невесомые, как вторая кожа, украшения: 
+            такими мы видим драгоценности нашего времени. Деликатное кольцо с солитером 
+            станет идеальным дополнением к любому наряду, придав образу изящества и воздушности.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="proposal">
+      <h5 class="position__text">Вам может понравится</h5>
+      <ul class="list__offers">
+        <li><img class="proposal__image" src="./img/ВамПонравится1.png">
+          <div class="list__offers-last">
+            <p>Кольцо полосы</p>
+            <p>5600 &#8381;</p>
+          </div>
+        </li>
+        
+        <li><img class="proposal__image" src="./img/ВамПонравится2.png">
+          <div class="list__offers-last">
+            <p>Слэйв-браслет V</p>
+            <p>4300 &#8381;</p>
+          </div>
+        </li>
+      
+        <li><img class="proposal__image" src="./img/ВамПонравится3.png">
+          <div class="list__offers-last">
+            <p>Кольцо Пульс</p>
+            <p>3700 &#8381;</p>
+          </div>
+        </li>
+      
+        <li><img class="proposal__image" src="./img/ВамПонравится4.png">
+          <div class="list__offers-last">
+            <p>Серьги-гвозди Клевер</p>
+            <p>2100 &#8381;</p>
+          </div>
+        </li>
+        
+        <li><img class="proposal__image" src="./img/ВамПонравится5.png">
+          <div class="list__offers-last">
+            <p>Пирсинг Цветок</p>
+            <p>2300 &#8381;</p>
+          </div>
+        </li>
+
+        <li><img class="proposal__image" src="./img/ВамПонравится6.png">
+          <div class="list__offers-last">
+            <p>Брошь Полумесяц</p>
+            <p>5900 &#8381;</p>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__column">
+      <h4 class="footer__title">О нас</h4>
+      <nav class="footer__nav-bar">
+        <a class="footer__link" href="#">Магазин</a>
+        <a class="footer__link" href="#">Оплата и доставка</a>
+        <a class="footer__link" href="#">Партнеры</a>
+        <a class="footer__link" href="#">Правовая информация</a>
+      </nav>
+    </div>
+    <div class="footer__column">
+      <h4 class="footer__title">Помощь</h4>
+      <nav class="footer__nav-bar">
+        <a class="footer__link" href="#">Вопросы и ответы</a>
+        <a class="footer__link" href="#">Бонусная программа</a>
+        <a class="footer__link" href="#">Подарочный сертификат</a>
+        <a class="footer__link" href="#">Гарантия и возврат</a>
+      </nav>
+    </div>
+    <div class="footer__column footer__column_type_right">
+      <h4 class="footer__title">Наши контакты</h4>
+      <nav class="footer__nav-bar_type_right">
+        <a class="footer__link" href="#"><img class="footer__icon" src="./img/Телефон.svg" alt="Иконка телефона">+7 (495) 988-90-20</a>
+        <a class="footer__link" href="#"><img class="footer__icon" src="./img/Почта.svg" alt="Иконка телефона">lagracishop@mail.ru</a>
+        <a class="footer__link" href="#"><img class="footer__icon" src="./img/vk.svg" alt="Иконка телефона">vk.com/lagrachishop</a>
+        <a class="footer__link" href="#"><img class="footer__icon" src="./img/Telegram.svg" alt="Иконка телефона">tg.me/lagraci</a>
+      </nav>
+    </div>  
+  </footer>
+
+<!-- Скрипт -->
+  <script src="./product.js" type="module"></script>
+  <script src="./information.js" type="module"></script>
+  <script src="./index.js" type="module"></script>
+ </body>
+</html>
